@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Street Fighter</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <!-- My Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+ 
+ 
+
+</head>
+
+<body>
+  <header>
+    <div class="row col-12 justify-content-center">
+        <img  class="col-xs-10 col-sm-5 col-md-4 col-lg-3 img-fluid rounded" src ="assets/images/street-fighter.jpg">
+    </div>
+    
+  </header>
+  <div class="container" id="main-game-section">
+    <section class="main-section">
+    <div class="row">
+        <div class="row col-12 justify-content-center" id="characters-section">
+        <div class="row section-title">Select Your Character</div>
+    </div>
+    <div class="row col-4 " id="fighter-section">
+         
+              <div class="row col-12 float-left" id="fighter"></div>
+              
+    </div>
+    <div class="row col-4 justify-content-center">
+          <div class="row section-title col-12" id="fight-section">Fight Section - Click to Attack </div>
+ 
+          <div class="row col-12 justify-content-center">
+              <img class="btn" id="attack-button" src="assets/images/button.gif">
+            </div>
+      		<div class="row jumbotron col-12" id="gameMessage"></div>
+     
+    </div>	
+    <div class="row col-4" id="action character-section">
+        <div class="row col-12 float-right" id="defender"></div>
+      	
+    </div>
+    
+    <div class="row col-12" id="nextEnemy-section">
+      <div class="row col-12 section-title"></div>
+    </div>
+  </section>
+ 
+
+
+  </div>
+   <!-- Bootstrap core JavaScript -->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Game logic -->
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
