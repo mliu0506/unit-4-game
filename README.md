@@ -2,7 +2,7 @@
 
 https://mliu0506.github.io/unit-4-game/
 
-This game support mobile device, laptop & PC verion.
+This game support mobile device, laptop & PC version.
 
 Each character in the game has 3 attributes: Health Points, Attack Power and Counter Attack Power.
 
