@@ -57,7 +57,7 @@ var gameOver = new Audio('assets/audio/gameOver.mp3');
 var lostSound = new Audio('assets/audio/lostSound.mp3');
 var hadouken = new Audio('assets/audio/hadouken.mp3');
 var playerSound = new Audio('assets/audio/playerSound.mp3');
-var background = new Audio('assets/audio/background.mp3');
+var background = new Audio('assets/audio/Background.mp3');
 
 
 
